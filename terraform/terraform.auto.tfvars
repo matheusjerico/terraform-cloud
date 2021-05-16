@@ -1,4 +1,4 @@
-instance_type = "t3.micro"
+instance_type = "t3.medium"
 
 ec2_tags = {
   Name        = "hello-word-ec2"
