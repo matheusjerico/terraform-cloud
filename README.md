@@ -6,15 +6,22 @@ The goal of this repository is to practice to use Terraform Cloud instead remote
 
 ```bash
 .
-├── main.tf
-├── output.tf
+.
+├── .gitignore
 ├── README.md
-├── servers
-│   ├── ec2.tf
-│   ├── output.tf
-│   ├── s3.tf
-│   └── variables.tf
-└── terrafile.tf
+└── terraform
+    ├── main.tf
+    ├── output.tf
+    ├── plan
+    ├── servers
+    │   ├── ec2.tf
+    │   ├── output.tf
+    │   ├── s3.tf
+    │   └── variables.tf
+    ├── terrafile.tf
+    ├── terraform.tfvars
+    └── variables.tf
+
 ```
 
 Steps:
